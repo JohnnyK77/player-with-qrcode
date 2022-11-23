@@ -1,0 +1,2 @@
+# QrPlayer
+ FE assignmnet
