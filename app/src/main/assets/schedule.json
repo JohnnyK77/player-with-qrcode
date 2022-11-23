@@ -1,0 +1,112 @@
+{
+  "ad_list": [
+    {
+      "id" : "AD_001",
+      "type" : "FOOD",
+      "date" : "2022-04-01",
+      "start_time" : "12:00",
+      "end_time" : "18:00",
+      "limit_count": "10",
+      "ad_url" : "https://youtu.be/E6QRkAkb57U"
+    },
+    {
+      "id" : "AD_002",
+      "type" : "FOOD",
+      "date" : "2022-04-01",
+      "start_time" : "09:00",
+      "end_time" : "12:00",
+      "limit_count": "10",
+      "ad_url" : "https://youtu.be/2eycXlex5o8"
+    },
+    {
+      "id" : "AD_003",
+      "type" : "DELIVERY",
+      "date" : "2022-04-01",
+      "start_time" : "09:00",
+      "end_time" : "12:00",
+      "limit_count": "10",
+      "ad_url" : "https://youtu.be/Htwxdxlipbc"
+    },
+    {
+      "id" : "AD_004",
+      "type" : "GROCERY",
+      "date" : "2022-04-01",
+      "start_time" : "06:00",
+      "end_time" : "18:00",
+      "limit_count": "10",
+      "ad_url" : "https://youtu.be/_XFWsmV6EY0"
+    },
+    {
+      "id" : "AD_005",
+      "type" : "COSMETIC",
+      "date" : "2022-04-01",
+      "start_time" : "06:00",
+      "end_time" : "24:00",
+      "limit_count": "20",
+      "ad_url" : "https://youtu.be/YwN84hJ0J-U"
+    },
+    {
+      "id" : "AD_006",
+      "type" : "SERVICE",
+      "date" : "2022-04-01",
+      "start_time" : "09:00",
+      "end_time" : "12:00",
+      "limit_count": "10",
+      "ad_url" : "https://youtu.be/7SDB1PoyRy0"
+    },
+    {
+      "id" : "AD_007",
+      "type" : "DRAMA",
+      "date" : "2022-04-01",
+      "start_time" : "12:00",
+      "end_time" : "18:00",
+      "limit_count": "30",
+      "ad_url" : "https://youtu.be/wYv2AHcpNp8"
+    },
+    {
+      "id" : "AD_008",
+      "type" : "FOOD",
+      "date" : "2022-04-01",
+      "start_time" : "09:00",
+      "end_time" : "24:00",
+      "limit_count": "10",
+      "ad_url" : "https://youtu.be/_OInfVkKhSM"
+    },
+    {
+      "id" : "AD_009",
+      "type" : "DELIVERY",
+      "date" : "2022-04-01",
+      "start_time" : "09:00",
+      "end_time" : "12:00",
+      "limit_count": "10",
+      "ad_url" : "https://youtu.be/-OZdX9fYEU4"
+    },
+    {
+      "id" : "AD_010",
+      "type" : "GROCERY",
+      "date" : "2022-04-01",
+      "start_time" : "06:00",
+      "end_time" : "18:00",
+      "limit_count": "30",
+      "ad_url" : "https://youtu.be/Nt89kZT6bxg"
+    },
+    {
+      "id" : "AD_011",
+      "type" : "COSMETIC",
+      "date" : "2022-04-01",
+      "start_time" : "06:00",
+      "end_time" : "24:00",
+      "limit_count": "20",
+      "ad_url" : "https://youtu.be/qRx_Bx7s7v0"
+    },
+    {
+      "id" : "AD_012",
+      "type" : "SERVICE",
+      "date" : "2022-04-01",
+      "start_time" : "09:00",
+      "end_time" : "12:00",
+      "limit_count": "10",
+      "ad_url" : "https://youtu.be/loZg8sDyKFk"
+    }
+  ]
+}
