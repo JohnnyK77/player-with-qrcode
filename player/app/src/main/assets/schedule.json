@@ -7,7 +7,7 @@
       "start_time" : "12:00",
       "end_time" : "18:00",
       "limit_count": "10",
-      "ad_url" : "https://youtu.be/E6QRkAkb57U"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/1.mp4"
     },
     {
       "id" : "AD_002",
@@ -16,7 +16,7 @@
       "start_time" : "09:00",
       "end_time" : "12:00",
       "limit_count": "10",
-      "ad_url" : "https://youtu.be/2eycXlex5o8"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/2.mp4"
     },
     {
       "id" : "AD_003",
@@ -25,7 +25,7 @@
       "start_time" : "09:00",
       "end_time" : "12:00",
       "limit_count": "10",
-      "ad_url" : "https://youtu.be/Htwxdxlipbc"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/3.mp4"
     },
     {
       "id" : "AD_004",
@@ -34,7 +34,7 @@
       "start_time" : "06:00",
       "end_time" : "18:00",
       "limit_count": "10",
-      "ad_url" : "https://youtu.be/_XFWsmV6EY0"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/4.mp4"
     },
     {
       "id" : "AD_005",
@@ -43,7 +43,7 @@
       "start_time" : "06:00",
       "end_time" : "24:00",
       "limit_count": "20",
-      "ad_url" : "https://youtu.be/YwN84hJ0J-U"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/5.mp4"
     },
     {
       "id" : "AD_006",
@@ -52,7 +52,7 @@
       "start_time" : "09:00",
       "end_time" : "12:00",
       "limit_count": "10",
-      "ad_url" : "https://youtu.be/7SDB1PoyRy0"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/6.mp4"
     },
     {
       "id" : "AD_007",
@@ -61,7 +61,7 @@
       "start_time" : "12:00",
       "end_time" : "18:00",
       "limit_count": "30",
-      "ad_url" : "https://youtu.be/wYv2AHcpNp8"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/7.mp4"
     },
     {
       "id" : "AD_008",
@@ -70,7 +70,7 @@
       "start_time" : "09:00",
       "end_time" : "24:00",
       "limit_count": "10",
-      "ad_url" : "https://youtu.be/_OInfVkKhSM"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/8.mp4"
     },
     {
       "id" : "AD_009",
@@ -79,7 +79,7 @@
       "start_time" : "09:00",
       "end_time" : "12:00",
       "limit_count": "10",
-      "ad_url" : "https://youtu.be/-OZdX9fYEU4"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/9.mp4"
     },
     {
       "id" : "AD_010",
@@ -88,7 +88,7 @@
       "start_time" : "06:00",
       "end_time" : "18:00",
       "limit_count": "30",
-      "ad_url" : "https://youtu.be/Nt89kZT6bxg"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/10.mp4"
     },
     {
       "id" : "AD_011",
@@ -97,7 +97,7 @@
       "start_time" : "06:00",
       "end_time" : "24:00",
       "limit_count": "20",
-      "ad_url" : "https://youtu.be/qRx_Bx7s7v0"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/11.mp4"
     },
     {
       "id" : "AD_012",
@@ -106,7 +106,7 @@
       "start_time" : "09:00",
       "end_time" : "12:00",
       "limit_count": "10",
-      "ad_url" : "https://youtu.be/loZg8sDyKFk"
+      "ad_url" : "https://play-list-qrcode-player.s3.ap-northeast-2.amazonaws.com/video/12.mp4"
     }
   ]
 }
