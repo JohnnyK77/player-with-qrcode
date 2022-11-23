@@ -10,6 +10,10 @@ import com.google.android.exoplayer2.Player
 import com.google.gson.Gson
 import com.google.zxing.BarcodeFormat
 import com.journeyapps.barcodescanner.BarcodeEncoder
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity(), Player.Listener {
     private val TAG = javaClass.simpleName.trim()
@@ -34,24 +38,21 @@ class MainActivity : AppCompatActivity(), Player.Listener {
         //parsing
         val vo = Gson().fromJson(jsonString, ContentsVo::class.java)
         adList = vo.ad_list
-        setNextSchedule()
+        startNextSchedule()
     }
 
-    private fun setNextSchedule() {
+    private fun startNextSchedule() {
         if (!adList.isNullOrEmpty()) {
+            //index rolling
             if (adIdx >= adList!!.size) {
                 adIdx = 0
             }
-            startPlay(adList!![adIdx])
+            val vo = adList!![adIdx]
             adIdx++
+            setQrCodeImage(Gson().toJson(vo))
+            binding.epvMain.setPlayMediaItem(vo.ad_url)
+            binding.epvMain.start()
         }
-    }
-
-    private fun startPlay(vo: Advertise) {
-        setQrCodeImage(Gson().toJson(vo))
-        binding.epvMain.setPlayMediaItem(vo.ad_url)
-        binding.epvMain.start()
-
     }
 
     private fun setQrCodeImage(content: String) {
@@ -70,10 +71,28 @@ class MainActivity : AppCompatActivity(), Player.Listener {
         when (state) {
             Player.STATE_ENDED -> {
                 Log.d(TAG, "end")
-                setNextSchedule()
             }
-            Player.STATE_READY -> {}
+            Player.STATE_READY -> {
+                //limit until 30 seconds
+                var remainTime = 30
+                CoroutineScope(Dispatchers.Main).launch {
+                    while (remainTime >= 0){
+                        binding.tvRemainTime.text = "$remainTime"
+                        delay(1000)
+                        remainTime--
+                    }
+                    if (binding.epvMain.isPlaying()){
+                        binding.epvMain.player?.stop()
+                    }
+                    startNextSchedule()
+                }
+            }
             Player.STATE_BUFFERING -> {}
         }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        binding.epvMain.releasePlayer()
     }
 }
