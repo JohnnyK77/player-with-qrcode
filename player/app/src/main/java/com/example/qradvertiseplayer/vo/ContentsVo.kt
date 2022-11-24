@@ -10,6 +10,6 @@ data class Advertise(
     val date: String,
     val start_time: String,
     val end_time: String,
-    val limit_count: String,
+    var limit_count: Int,
     val ad_url: String
 )
