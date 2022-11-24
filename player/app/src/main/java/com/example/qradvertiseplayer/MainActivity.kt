@@ -157,7 +157,7 @@ class MainActivity : AppCompatActivity(), Player.Listener {
             }
             Player.STATE_READY -> {
                 //limit until 30 seconds
-                var remainTime = 5
+                var remainTime = 30
                 CoroutineScope(Dispatchers.Main).launch {
                     while (remainTime >= 0) {
                         binding.tvRemainTime.text = "$remainTime"
