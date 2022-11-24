@@ -69,7 +69,7 @@ class ExoPlayerView : StyledPlayerView {
     //동영상 해제
     fun releasePlayer() {
         Log.d(TAG, "releasePlayer called!")
-        //            mPlayer.stop();
+        mPlayer?.stop();
         mPlayer?.release()
         mPlayer = null
     }
